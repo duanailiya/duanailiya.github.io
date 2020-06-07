@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Biryani:900&display=swap');
+
+body {
+	background-color: #ebc334;
+	font-family: 'Biryani', sans-serif;
+	font-size: 16px
+}
+#page {
+	max-width: 90%;
+	min-width: 80%;
+	margin: 0.5em auto 0.5em auto;
+	padding: 1.5em;
+	border: 0.25em double orange;
+	background-color: white;
+}
+#logo {
+	width: 30%;
+	margin: 0px auto 0px auto;
+}
+#nav {
+	width: 50%;
+	padding: 1em;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid orange;
+	border-bottom: 2px solid orange;
+	text-align: center
+}
+li {
+	display: inline;
+	margin: 0px 3px;
+	color: orange;
+}
+p, h1{
+	text-align: center;
+	width: 80%;
+	margin: 1.5em auto 1.5em auto;
+	font-size: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: sub;
+}
+
+h2 {
+	text-align: center;
+	width: 80%;
+	margin: 1.5em auto 1.5em auto;
+	font-size: 140%;
+}
+a {
+	color: orange;
+	text-decoration: none;
+	padding: 0,5em 1em 0.5em 1em;
+}
+footer {
+	text-align: center;
+	font-size: 80%;
+	color: white;
+}
+#left {
+    float: left;
+    width:45%;
+}
+
+#right {
+    float: right;   
+    width: 45%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#media {
+	padding: 1em;
+	margin: 0px auto 0px auto;
+	text-align: center
+}
+
+@media screen and (max-width:929px){
+	li {
+	display: block;
+	margin: 0px 3px;
+	color: orange;
+	}
+
+	a {
+	color: orange;
+	text-decoration: none;
+	padding: 0,5em 1em 0.5em 1em;
+	}
+}
